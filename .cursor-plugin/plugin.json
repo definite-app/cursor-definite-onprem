@@ -1,0 +1,43 @@
+{
+  "name": "definite-onprem",
+  "displayName": "Definite On-Prem",
+  "version": "0.1.0",
+  "description": "Connect Cursor agents to the lakehouse in your own Definite on-prem deployment.",
+  "author": {
+    "name": "Definite"
+  },
+  "homepage": "https://github.com/definite-app/cursor-definite-onprem",
+  "repository": "https://github.com/definite-app/cursor-definite-onprem",
+  "license": "MIT",
+  "keywords": [
+    "definite",
+    "on-prem",
+    "lakehouse",
+    "analytics",
+    "mcp",
+    "agents"
+  ],
+  "category": "integrations",
+  "tags": [
+    "data",
+    "lakehouse",
+    "mcp",
+    "self-hosted"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "DEFINITE_DEPLOYMENT_HOSTNAME": {
+        "type": "string",
+        "title": "Deployment hostname",
+        "description": "Hostname of your Definite deployment only, without https:// or /mcp.",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "DEFINITE_DEPLOYMENT_HOSTNAME"
+    ]
+  },
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

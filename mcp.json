@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "definite": {
+      "type": "http",
+      "url": "https://${DEFINITE_DEPLOYMENT_HOSTNAME}/mcp"
+    }
+  }
+}
