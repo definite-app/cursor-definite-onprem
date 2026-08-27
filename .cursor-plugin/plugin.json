@@ -1,0 +1,59 @@
+{
+  "name": "definite-onprem",
+  "displayName": "Definite",
+  "version": "0.1.0",
+  "description": "The warehouse an agent can sign up for.",
+  "author": {
+    "name": "Definite"
+  },
+  "homepage": "https://github.com/definite-app/cursor-definite-onprem",
+  "repository": "https://github.com/definite-app/cursor-definite-onprem",
+  "license": "MIT",
+  "keywords": [
+    "warehouse",
+    "database",
+    "etl",
+    "mcp",
+    "agents",
+    "definite",
+    "dashboard",
+    "lakehouse",
+    "sql",
+    "analytics",
+    "bi",
+    "pipeline",
+    "duckdb",
+    "on-prem"
+  ],
+  "category": "integrations",
+  "tags": [
+    "data",
+    "warehouse",
+    "etl",
+    "mcp",
+    "dashboard",
+    "lakehouse",
+    "sql",
+    "analytics",
+    "bi",
+    "pipeline",
+    "duckdb",
+    "on-prem"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "DEFINITE_DEPLOYMENT_HOSTNAME": {
+        "type": "string",
+        "title": "Deployment hostname",
+        "description": "Hostname of your Definite deployment only, without https:// or /mcp.",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "DEFINITE_DEPLOYMENT_HOSTNAME"
+    ]
+  },
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
