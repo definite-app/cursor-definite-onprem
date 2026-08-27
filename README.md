@@ -1,8 +1,8 @@
-# Definite On-Prem for Cursor
+# Definite for Cursor
 
 This Cursor plugin connects agents to the MCP server in a customer's own
-Definite on-prem deployment. Small, always-on agent VMs can query the
-deployment directly while the lakehouse and storage remain in Definite.
+Definite deployment. Small, always-on agent VMs can query the deployment
+directly while the warehouse and storage remain in Definite.
 
 The plugin includes:
 
@@ -22,12 +22,12 @@ Symlink the repository into Cursor's local plugin directory:
 ```bash
 mkdir -p ~/.cursor/plugins/local
 ln -s /absolute/path/to/cursor-definite-onprem \
-  ~/.cursor/plugins/local/definite-onprem
+  ~/.cursor/plugins/local/definite
 ```
 
 Then restart Cursor or run **Developer: Reload Window**.
 
-1. Open **Customize**, find **Definite On-Prem**, and configure
+1. Open **Customize**, find **Definite**, and configure
    `DEFINITE_DEPLOYMENT_HOSTNAME`.
 2. Enter the deployment hostname only, without `https://` or `/mcp`.
 3. Select **Connect** on the MCP card, sign in to that Definite deployment,
@@ -38,16 +38,12 @@ Then restart Cursor or run **Developer: Reload Window**.
 Do not paste a `def_` token into the plugin configuration. When the OAuth
 session expires, use **Connect** again.
 
-## Jane handoff
+## Marketplace
 
-- Local plugin directory: `~/.cursor/plugins/local/definite-onprem`
+- Homepage: https://www.definite.app
+- Repository / submit URL: https://github.com/definite-app/cursor-definite-onprem
 - Required field: `DEFINITE_DEPLOYMENT_HOSTNAME`
 - Auth: Cursor **Connect** card, then Definite OAuth consent
-- Working one-line placeholder to rewrite: Connect Cursor agents to the
-  lakehouse in your own Definite on-prem deployment.
-
-This repository is the plugin source only. Marketplace submission and listing
-copy are intentionally out of scope.
 
 ## Validate
 
