@@ -1,29 +1,34 @@
 {
-  "name": "definite-onprem",
+  "name": "definite",
   "displayName": "Definite",
   "version": "0.1.0",
   "description": "The warehouse an agent can sign up for.",
   "author": {
-    "name": "Definite"
+    "name": "Definite",
+    "url": "https://www.definite.app"
   },
-  "homepage": "https://github.com/definite-app/cursor-definite-onprem",
+  "homepage": "https://www.definite.app",
   "repository": "https://github.com/definite-app/cursor-definite-onprem",
   "license": "MIT",
   "keywords": [
     "warehouse",
     "database",
     "etl",
+    "lakehouse",
+    "duckdb",
+    "sql",
+    "dashboard",
+    "bi",
+    "analytics",
+    "pipeline",
     "mcp",
     "agents",
     "definite",
-    "dashboard",
-    "lakehouse",
-    "sql",
-    "analytics",
-    "bi",
-    "pipeline",
-    "duckdb",
-    "on-prem"
+    "connectors",
+    "ingestion",
+    "data-apps",
+    "olap",
+    "fi"
   ],
   "category": "integrations",
   "tags": [
@@ -38,7 +43,11 @@
     "bi",
     "pipeline",
     "duckdb",
-    "on-prem"
+    "connectors",
+    "ingestion",
+    "data-apps",
+    "olap",
+    "fi"
   ],
   "variables": {
     "type": "object",
