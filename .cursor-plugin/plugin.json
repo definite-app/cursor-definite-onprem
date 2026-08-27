@@ -15,14 +15,30 @@
     "etl",
     "mcp",
     "agents",
-    "definite"
+    "definite",
+    "dashboard",
+    "lakehouse",
+    "sql",
+    "analytics",
+    "bi",
+    "pipeline",
+    "duckdb",
+    "on-prem"
   ],
   "category": "integrations",
   "tags": [
     "data",
     "warehouse",
     "etl",
-    "mcp"
+    "mcp",
+    "dashboard",
+    "lakehouse",
+    "sql",
+    "analytics",
+    "bi",
+    "pipeline",
+    "duckdb",
+    "on-prem"
   ],
   "variables": {
     "type": "object",
