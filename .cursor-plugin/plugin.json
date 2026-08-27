@@ -1,8 +1,8 @@
 {
   "name": "definite-onprem",
-  "displayName": "Definite On-Prem",
+  "displayName": "Definite",
   "version": "0.1.0",
-  "description": "Connect Cursor agents to the lakehouse in your own Definite on-prem deployment.",
+  "description": "The warehouse an agent can sign up for.",
   "author": {
     "name": "Definite"
   },
@@ -10,19 +10,19 @@
   "repository": "https://github.com/definite-app/cursor-definite-onprem",
   "license": "MIT",
   "keywords": [
-    "definite",
-    "on-prem",
-    "lakehouse",
-    "analytics",
+    "warehouse",
+    "database",
+    "etl",
     "mcp",
-    "agents"
+    "agents",
+    "definite"
   ],
   "category": "integrations",
   "tags": [
     "data",
-    "lakehouse",
-    "mcp",
-    "self-hosted"
+    "warehouse",
+    "etl",
+    "mcp"
   ],
   "variables": {
     "type": "object",
